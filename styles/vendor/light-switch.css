@@ -1,0 +1,96 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+.switch {
+  margin: 4rem auto; }
+
+/* main styles */
+.switch {
+  width: 25rem;
+  position: relative; }
+
+.switch input {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  opacity: 0;
+  cursor: pointer; }
+
+.switch input:checked {
+  z-index: 1; }
+
+.switch input:checked + label {
+  opacity: 1;
+  cursor: default; }
+
+.switch input:not(:checked) + label:hover {
+  opacity: 0.5; }
+
+.switch label {
+  color: #555555;
+  opacity: 0.83;
+  transition: opacity 0.25s ease;
+  cursor: pointer; }
+
+.switch .toggle-outside {
+  height: 100%;
+  border-radius: 2rem;
+  padding: 0.25rem;
+  overflow: hidden;
+  transition: 0.25s ease all; }
+
+.switch .toggle-inside {
+  border-radius: 5rem;
+  background: #46b881;
+  position: absolute;
+  transition: 0.25s ease all; }
+
+.switch--horizontal {
+  width: 25rem;
+  height: 2rem;
+  margin: 1rem auto; }
+
+.switch--horizontal input {
+  height: 2rem;
+  width: 8rem;
+  left: 8rem;
+  margin: 0; }
+
+.switch--horizontal label {
+  font-size: 1em;
+  line-height: 2rem;
+  display: inline-block;
+  width: 8rem;
+  height: 100%;
+  margin: 0;
+  text-align: center; }
+
+.switch--horizontal label:last-of-type {
+  margin-left: 8rem; }
+
+.switch--horizontal .toggle-outside {
+  background: #fff;
+  position: absolute;
+  width: 8rem;
+  left: 8rem; }
+
+.switch--horizontal .toggle-inside {
+  height: 1.5rem;
+  width: 1.5rem; }
+
+.switch--horizontal input:checked ~ .toggle-outside .toggle-inside {
+  left: 0.25rem; }
+
+.switch--horizontal input ~ input:checked ~ .toggle-outside .toggle-inside {
+  left: 6.25rem; }
+
+.switch--no-label.switch--horizontal {
+  width: 6rem; }
+
+.switch--no-label.switch--horizontal input,
+.switch--no-label.switch--horizontal .toggle-outside {
+  left: 0; }
+
+/*# sourceMappingURL=light-switch.css.map */
