@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translations>
+  <translation id="usa-language-status">
+      <en>The page language has changed to English.</en>
+      <es>El idioma de la página ha cambiado al español.</es>
+  </translation>
+    <translation id="lead">
+        <en>Your Guide to Government Information and Services</en>
+        <es>Su guía de información y servicios del Gobierno</es>
+    </translation>
+    <translation id="usa-grid-intro-h2">
+        <en>You have things to do. Searching endlessly for the government information you need doesn’t have to be one of them.</en>
+        <es>No importa en qué etapa de su vida esté, podemos hacerle su vida un poco más fácil.</es>
+    </translation>
+    <translation id="usa-grid-intro-p">
+        <en>Passports. Social Security benefits. Tax forms. Small business help. There are so many reasons to need government information and services, but finding them can be tough. Let us help. USAGov is the federal program that guides you to tips and tools in English and in Spanish from hundreds of government agencies, departments, and programs. Online, by phone or chat, and in print--we help make everyday life a little easier.</en>
+        <es>
+          Son muchas las razones para buscar información y servicios del Gobierno. Tal vez necesita información sobre inmigración y pasaportes, beneficios del Seguro Social o recursos para comenzar un negocio. Cualquiera que sea su pregunta, permítanos ayudarlo. USAGov es un programa federal que lo conecta a la información y los servicios de las agencias, los departamentos y programas del Gobierno. En USAGov encontrará respuestas a sus preguntas en español  y en inglés -por Internet, teléfono, chat o en nuestra Guía del Consumidor.
+        </es>
+    </translation>
+    <translation id="usa-channel-general-h3">
+        <en>What can I find online from USAGov?</en>
+        <es>¿Qué me ofrece USAGov por Internet?</es>
+    </translation>
+    <translation id="usa-channel-general-p">
+        <en>
+          Explore <![CDATA[<a href="https://www.usa.gov/">USA.Gov</a>]]> for government info on <![CDATA[<a href="https://www.usa.gov/benefits">benefits</a>]]>, <![CDATA[<a href="https://www.usa.gov/health">health</a>]]>, <![CDATA[<a href="https://www.usa.gov/jobs-and-unemployment">jobs</a>]]>, and more. And discover fun educational tools at <![CDATA[<a href="https://kids.usa.gov">Kids.gov</a>]]>.
+        </en>
+        <es>
+          USAGov le ofrece información oficial del Gobierno sobre <![CDATA[<a href="https://gobierno.usa.gov/ayuda-financiera-becas-beneficios">beneficios</a>]]>, <![CDATA[<a href="https://gobierno.usa.gov/salud">salud</a>]]>, <![CDATA[<a href="https://gobierno.usa.gov/trabajo-y-desempleo">empleos</a>]]> y mucho más. Visite <![CDATA[<a href="https://gobierno.usa.gov/">GobiernoUSA.gov</a>]]> para obtener esta información en español. Si está en busca de recursos educativos, visite <![CDATA[<a href="https://kids.usa.gov">Kids.gov</a>]]> (en inglés).
+        </es>
+    </translation>
+    <translation id="usa-channel-phonechat-h3">
+        <en>Can I speak with someone by phone or online chat?</en>
+        <es>¿Puedo hablar con alguien por teléfono o por chat?</es>
+    </translation>
+    <translation id="usa-channel-phonechat-p">
+        <en>Call 1-844-USA-GOV1 or go to <![CDATA[<a href="https://www.usa.gov/chat">USA.gov/chat</a>]]> to connect with specialists who can answer your questions.</en>
+        <es>Llame al 1-844-USA-GOV1 (1-844-872-4681) o visite <![CDATA[<a href="https://gobierno.usa.gov/chat">GobiernoUSA.gov/chat</a>]]> para hablar con un especialista que podrá contestar sus preguntas.</es>
+    </translation>
+    <translation id="usa-channel-education-h3">
+        <en>How can I get information in print?</en>
+        <es>¿Cómo puedo recibir información impresa?</es>
+    </translation>
+    <translation id="usa-channel-education-p">
+        <en>Visit <![CDATA[<a href="https://www.usa.gov/handbook">USA.gov/handbook</a>]]>. The free Consumer Action Handbook helps you solve complaints, avoid ID theft, and shop smarter.</en>
+        <es>Visite <![CDATA[<a href="https://gobierno.usa.gov/publicaciones">GobiernoUSA.gov/publicaciones</a>]]>. Pida una copia gratis por correo postal de la Guía del Consumidor o imprímala. La Guía le da consejos sobre cómo prevenir el robo de identidad y el fraude, presentar una queja o comprar una vivienda.</es>
+    </translation>
+    <translation id="usa-channel-spanish-h3">
+        <en>Where can I find information in Spanish?</en>
+        <es>¿Dónde puedo encontrar información en inglés?</es>
+    </translation>
+    <translation id="usa-channel-spanish-p">
+        <en> Visit <![CDATA[<a href="https://gobierno.usa.gov/">GobiernoUSA.gov</a>]]> for services and information in Spanish on immigration, housing, financial assistance, and more.</en>
+        <es>Visite <![CDATA[<a href="https://www.usa.gov/">USA.gov</a>]]> para encontrar información y servicios en inglés sobre pasaportes, beneficios del Seguro Social, impuestos y más.</es>
+    </translation>
+    <translation id="usa-channel-spanish-img">
+        <en><![CDATA[<img src="images/espanol.png" alt="espanol">]]></en>
+        <es><![CDATA[<img src="images/english.png" alt="english">]]></es>
+    </translation>
+    <translation id="usa-feature-image">
+      <en><![CDATA[<img id="feature-video-play-btn" src="images/feature_video_play-2.jpg" alt="usagov brand story">]]></en>
+      <es><![CDATA[
+          <img id="feature-video-play-btn" src="images/usa-video_poster-spanish_2.png" alt="hispanic heritage month">
+          <!-- <a href="https://www.youtube.com/playlist?list=PLkepuznYQFHoAql6nyn9O1K3QZe4Oty1l" target="_blank"><img id="feature-video-play-btn-es" src="images/feature-image-espanol.jpg" alt="hispanic heritage month"/></a> -->
+        ]]></es>
+    </translation>
+    <translation id="usa-feature-h2">
+      <en>Our Story</en>
+      <es>Conozca al Profesor Sabelotodo y aprenda a ser un consumidor informado</es>
+    </translation>
+    <translation id="usa-feature-p">
+      <en>For nearly 50 years, USAGov has been innovating, adapting, and evolving to help guide Americans to the government information and services they need.</en>
+      <es>
+        Vea estos videos sobre cómo presentar una queja cuando no esté satisfecho con un producto o servicio, cómo protegerse del fraude y cómo planificar para su jubilación.
+        <![CDATA[<p><a href="https://www.youtube.com/playlist?list=PLkepuznYQFHoAql6nyn9O1K3QZe4Oty1l" target="_blank" class="usa-button">Vea más videos</a></p>]]></es>
+    </translation>
+
+    <translation id="usa-publication-h2">
+      <en>Be a Savvy Consumer</en>
+      <es>Sea un consumidor informado</es>
+    </translation>
+    <translation id="usa-publication-p">
+      <en>Wondering how to deposit a check using your smartphone? Feeling overwhelmed about buying a car? Want to learn how to avoid scams and protect yourself from fraud? Look no further than the <![CDATA[<strong>Consumer Action Handbook</strong>]]>. Updated every year, this free resource offers readers tips on shopping for goods and services and on protecting your rights as a consumer.</en>
+      <es>¿Quiere saber cómo depositar un cheque por medio de su celular? ¿Se siente agobiado con la idea de comprar un automovil? ¿Le gustaría aprender a cómo evitar que lo estafen y obtener consejos sobre cómo protegerse de fraude? La <![CDATA[<strong>Guía del Consumidor</strong>]]> lo ayuda con información actualizada cada año a tomar mejores decisiones financieras y a cuidar su sueño americano.</es>
+    </translation>
+
+    <translation id="usa-publication-image">
+      <en><![CDATA[<img src="images/publications-image.png" alt="photo of consumer action handbook">]]></en>
+      <es><![CDATA[<img src="images/publications-image-espanol.png" alt="photo of consumer action handbook">]]></es>
+    </translation>
+    <translation id="usa-publication-btn">
+      <en><![CDATA[<a href="http://publications.usa.gov/USAPubs.php?PubID=5131&PHPSESSID=a3ek9oqqu966tvg2sknf6e3l23" class="usa-button">Download the Consumer Action Handbook</a>]]></en>
+      <es><![CDATA[<a href="http://publications.usa.gov/USAPubs.php?PubID=8202&PHPSESSID=a3ek9oqqu966tvg2sknf6e3l23" class="usa-button">Descargue la Guía del Consumidor</a>]]></es>
+    </translation>
+
+    <translation id="usa-properties-h3">
+      <en>Visit or Call</en>
+      <es>Visite o llame</es>
+    </translation>
+    <translation id="usa-property-list">
+      <en>
+        <![CDATA[
+        <li><a href="https://www.usa.gov/">USA.gov</a></li>
+        <li><a href="https://gobierno.usa.gov/">GobiernoUSA.gov</a></li>
+        <li><a href="https://kids.usa.gov/">Kids.gov</a></li>
+        <li>1-844-USA-GOV1 (1-844-872-4681)</li>
+        ]]>
+      </en>
+      <es>
+        <![CDATA[
+        <li><a href="https://gobierno.usa.gov/">GobiernoUSA.gov</a></li>
+        <li><a href="https://www.usa.gov/">USA.gov</a></li>
+        <li><a href="https://kids.usa.gov/">Kids.gov</a></li>
+        <li>1-844-USA-GOV1 (1-844-872-4681)</li>
+        ]]>
+      </es>
+    </translation>
+
+    <translation id="usa-social-h3">
+      <en>Stay Connected</en>
+      <es>Síganos</es>
+    </translation>
+
+    <translation id="usa-connected-list">
+      <en>
+        <![CDATA[
+        <li><a href="https://www.facebook.com/USAgov"><i class="fa fa-facebook-square"></i><span>Facebook</span></a></li>
+        <li><a href="https://twitter.com/USAgov"><i class="fa fa-twitter-square"></i><span>Twitter</span></a></li>
+        <li><a href="http://www.youtube.com/USGovernment"><i class="fa fa-youtube-square"></i><span>YouTube</span></a></li>
+        <li><a href="http://blog.usa.gov"><i class="fa fa-rss-square"></i><span class="usa-blog-link-text">Our Behind the Scenes Blog</span></a></li>
+        ]]>
+      </en>
+      <es>
+        <![CDATA[
+        <li><a href="https://www.facebook.com/GobiernoUSA"><i class="fa fa-facebook-square"></i><span>Facebook</span></a></li>
+        <li><a href="https://twitter.com/GobiernoUSA"><i class="fa fa-twitter-square"></i><span>Twitter</span></a></li>
+        <li><a href="https://www.youtube.com/user/GobiernoUSA"><i class="fa fa-youtube-square"></i><span>YouTube</span></a></li>
+        <li><a href="http://blog.usa.gov"><i class="fa fa-rss-square"></i><span class="usa-blog-link-text">Nuestro blog (en inglés)</span></a></li>
+        ]]>
+      </es>
+    </translation>
+
+    <translation id="usa-mailing-h3">
+        <en>Join Our Mailing List</en>
+        <es>Reciba alertas por e-mail</es>
+    </translation>
+    <translation id="usa-mailing-p">
+        <en>Sign up for e-mail tips and news from USA <![CDATA[<span class="text-gov">Gov</span>]]>.</en>
+        <es>Suscríbase para recibir por e-mail consejos y noticias de USA <![CDATA[<span class="text-gov">Gov</span>]]>.</es>
+    </translation>
+
+    <translation id="usa-mailing-action">
+      <en><![CDATA[<a href="https://public.govdelivery.com/accounts/USAGOV/subscriber/new" class="usa-mailing-btn usa-button">Join Our List</a>]]></en>
+      <es><![CDATA[<a href="https://public.govdelivery.com/accounts/GOBIERNOUSA/subscriber/new" class="usa-mailing-btn usa-button">Suscríbase</a>]]></es>
+    </translation>
+
+    <translation id="back-to-top">
+      <en>Back to top</en>
+      <es>Volver al inicio</es>
+    </translation>
+</translations>
