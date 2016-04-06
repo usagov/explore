@@ -1,0 +1,51 @@
+.footer{
+  overflow: auto;
+  background-color: #041A2B;
+  color: #fff;
+  padding-bottom: 3em;
+  padding-top:2em;
+  position: relative;
+  ul{
+    list-style: none;
+    padding: 0;
+  }
+  .usa-properties{
+    a{
+      color: $light-blue;
+    }
+  }
+  .usa-stay-connected{
+    //overflow: auto;
+    //zoom: 1;
+    li{
+      font-size: 1.5em;
+      padding: 0 .5em .5em 0;
+      span{
+        font-size:15px;
+        padding: 0 5px;
+        line-height:1.5em;
+        display:inline-block;
+        position:relative;
+        top:-5px;
+      }
+      a{
+        color: #fff;
+        transition: all .2s ease-in-out;
+      }
+      a:hover{
+        color: #28C1E1;
+      }
+    }
+  }
+
+  .usa-mailing-btn{
+    background-color:$color-primary-alt;
+    color:$color-primary-darkest;
+
+    &:focus, &:hover, &:active{
+      background-color:$color-primary-alt-light;
+      color:$color-primary-darkest;
+    }
+  }
+
+}

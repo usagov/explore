@@ -1,0 +1,44 @@
+.usa-publication{
+  background-repeat: no-repeat;
+  // background-image: linear-gradient(-100deg, rgb(60, 138, 197) 25%, rgb(26, 85, 130) 100%);
+  font-size:1.125rem;
+  text-align: center;
+  background-color: #0B385A;
+  padding-top: 3rem;
+  .usa-publication-content{
+    text-align: left;
+    padding: 3em 0;
+    color: #fff;
+    h2{
+      margin: 0;
+      padding: 0;
+    }
+    p{
+      padding: 1.5em 0;
+    }
+  }
+  .usa-publication-image{
+    display: none;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .usa-publication{
+    .usa-publication-content{
+      margin: 0 auto;
+      width: 100%;
+      h2{
+      }
+      p{
+      }
+    }
+    .usa-publication-image{
+      margin-top:20px;
+      display: block;
+      img{
+        border-right: 4px solid #1276C3;
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+/* Video SCSS */
+
+.usa-feature-row{
+  font-size:1.125rem;
+  padding: 5em 0;
+  color: #fff;
+  background-color: #125080;
+  background-image: url('../images/feature-bg.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  p{
+    padding: 1.5em 0;
+  }
+
+  .usa-button{
+    background-color:#23C1E0;
+    background-color:$color-gold-light;
+    color:$color-gray-warm-darker;
+    &:hover, &:focus, &:active{
+      background-color:$color-gold-lighter;
+      color:$color-gray-warm-darker;
+    }
+  }
+}
+
+.usa-feature-video-player{
+	position:relative;
+	box-shadow:0 3px 8px -5px rgba(0,0,0,0.8);
+}
+
+.usa-feature-image{
+	padding:0;
+	border-radius:0;
+	border:none;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	z-index:1;
+
+	img{
+		width:100%;
+		max-width:none;
+    cursor:pointer;
+
+    &:focus{
+      border-color:$color-gray-lightest;
+      outline-color:$color-primary;
+    }
+	}
+
+  >a{
+    >img{
+      width:100%;
+    }
+
+    &:focus{
+      border:none !important;
+    }
+  }
+}

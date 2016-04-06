@@ -1,0 +1,22 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+$svg-icon-path: "fonts/svg/";
+
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+@import "vendor/vendor",
+        "globals/globals",
+        "components/components";
+
+
+html.no-js{
+  .usa-language-btn{
+    display: inline-block;
+  }
+  .switch{
+    display:none;
+  }
+}
+.usa-language-btn{
+  display: none;
+}

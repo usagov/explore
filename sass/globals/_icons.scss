@@ -1,0 +1,36 @@
+
+
+.fa{
+	height:1em;
+	width:1em;
+	display:inline-block;
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.fa-sm{
+	background-size:50%;
+}
+
+.fa-pause{
+	background-image:url('../images/icons/svg/pause.svg');
+}
+
+.fa-play{
+	background-image:url('../images/icons/svg/play.svg');
+}
+
+.fa-facebook-square{
+	background-image:url('../images/icons/svg/facebook-square.svg');
+}
+
+.fa-twitter-square{
+	background-image:url('../images/icons/svg/twitter-square.svg');
+}
+.fa-youtube-square{
+	background-image:url('../images/icons/svg/youtube-square.svg');
+}
+.fa-rss-square{
+	background-image:url('../images/icons/svg/rss-square.svg');
+}

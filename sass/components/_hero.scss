@@ -1,0 +1,119 @@
+
+.usa-video-container{
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  &:after{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background-color:rgba(0, 0, 0, 0.35);
+    z-index:1;
+  }
+}
+
+.usa-language-filter{
+  position:relative;
+}
+.usa-video-hero{
+  background-color:#000;
+  height: auto;
+  position: relative;
+  background-image:url('../images/usagov_hero_still.jpg');
+  background-size:cover;
+  background-position: center top;
+  .usa-video-hero-content{
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+    padding: 20px 40px;
+    color: #fff;
+    position: relative;
+    img{
+      height:40vh;
+      padding: 0 0 2em;
+    }
+    svg{
+      height:12em;
+      overflow:visible;
+    }
+    .lead{
+      max-width: 600px;
+      margin: 1em auto;
+      text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+      font-weight: bold;
+    }
+  }
+  .usa-video-hero-video{
+    z-index: 1;
+    display: none;
+    visibility:hidden;
+  }
+  .usa-video-control{
+    border: white 2px solid;
+    border-radius: 30px;
+    padding: 1rem;
+    background-color: rgba(0,0,0,.4);
+    cursor: pointer;
+    display:none;
+
+    &:focus{
+      border-color:$light-blue;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .usa-language-filter{
+    position:absolute;
+  }
+  .usa-video-hero{
+    height:500px;
+    overflow: hidden;
+
+    .usa-video-control{
+      display: inline-block;
+    }
+    .usa-video-hero-content{
+      position: absolute;
+      top: 20px;
+      svg{
+        height:16em;
+      }
+    }
+    .usa-video-hero-video{
+      display: block;
+      visibility:visible;
+      position: absolute;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+@media (min-width: 960px) {
+  .usa-video-hero{
+    background-image:none;
+  }
+}
+
+@media (min-width: 1170px) {
+  .usa-video-hero{
+    height:600px;
+
+    .usa-video-hero-content{
+      svg{
+        height:20em;
+      }
+    }
+    .usa-video-hero-video{
+    }
+  }
+}

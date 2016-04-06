@@ -1,0 +1,100 @@
+.usa-channel-row{
+  text-align: center;
+  border-top: 1px solid #cecece;
+  border-bottom: 1px solid #cecece;
+  background-color: #f8f8f8;
+
+
+
+  .container-fluid{
+    padding:0;
+  }
+  .usa-channel{
+    padding: 0 4rem;
+    border-left: 1px solid #cecece;
+    border-bottom: 1px solid #cecece;
+    min-height: 400px;
+    &:nth-child(odd){
+      border-left:0px;
+    }
+    h3{
+      font-size: 1em;
+      line-height: 1.250em;
+      font-weight: bold;
+    }
+    p{
+
+    }
+    .usa-channel-row-content{
+      padding: 3rem 0;
+    }
+  }
+}
+
+.usa-channel-spanish-img{
+  height:120px;
+
+  .caption{
+    display:block;
+    margin-top:10px;
+    font-size:240%;
+    font-weight:bold;
+    color:$dark-blue;
+  }
+}
+
+@media (min-width: 768px) {
+  .usa-channel-row{
+    border-bottom: 0px;
+    .container-fluid{
+
+    }
+    .usa-channel{
+      &:nth-child(odd){
+        border-left: 0px;
+      }
+      &:first-child{
+        border-left: 0px;
+      }
+      &:nth-child(-n+2){
+        border-bottom: 1px solid #cecece;
+      }
+      h3{
+      }
+      p{
+      }
+      .usa-channel-row-content{
+      }
+    }
+  }
+}
+
+
+
+@media (min-width: 1200px) {
+  .usa-channel-row{
+    border-bottom: 1px solid #cecece;
+    .container-fluid{
+      display:flex;
+      flex-direction: row;
+    }
+    .usa-channel{
+      min-height: 430px;
+      &:nth-child(odd){
+        border-left: 1px solid #cecece;
+      }
+      &:first-child{
+      }
+      h3{
+      }
+      p{
+      }
+      .usa-channel-row-content{
+      }
+    }
+  }
+}
+
+@media (min-width: 1350px) {
+  .usa-channel-row { .usa-channel { min-height: 400px; } } // adjusts min-height of usa-channel divs between 1200-1350 to account for awkward spacing
+}

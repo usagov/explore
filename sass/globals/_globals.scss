@@ -1,0 +1,15 @@
+@import "18f-variables",
+        "18f-buttons",
+        "colors",
+        "text",
+        "fonts",
+        "icons",
+        "buttons",
+        "helper",
+        "layout";
+
+img, a, button{
+  &:active, &:focus{
+    border:5px solid #23C1E0;
+  }
+}
